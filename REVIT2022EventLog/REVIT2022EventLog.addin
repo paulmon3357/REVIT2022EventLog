@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Command REVIT2022EventLog</Text>
+    <Description>Some description for REVIT2022EventLog</Description>
+    <Assembly>REVIT2022EventLog.dll</Assembly>
+    <FullClassName>REVIT2022EventLog.Command</FullClassName>
+    <ClientId>92924b29-b872-40b3-bae9-2f0740d86760</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>Application REVIT2022EventLog</Name>
+    <Assembly>REVIT2022EventLog.dll</Assembly>
+    <FullClassName>REVIT2022EventLog.App</FullClassName>
+    <ClientId>d13004f4-8c60-4df9-a320-4a8364143d84</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+</RevitAddIns>
